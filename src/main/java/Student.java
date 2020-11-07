@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 
 public class Student {
+    private static int IDs=00000;
     private String name;
     private int age;
     private String DOB;
@@ -13,6 +14,8 @@ public class Student {
          this.name=name;
          this.age=age;
          this.DOB=DOB;
+         IDs++;
+         this.ID=IDs;
      }
 
      public String getUsername(){
