@@ -3,14 +3,20 @@ import org.joda.time.DateTime;
 import java.util.List;
 
 public class Course {
+    private String name;
     private List<Module> modules;
     private List<Student> students;
     private DateTime startDate;
     private DateTime endDate;
 
-    public Course(DateTime startDate, DateTime endDate) {
+    public Course(String name,DateTime startDate, DateTime endDate) {
         this.startDate = startDate;
         this.endDate = endDate;
+        this.name=name;
+    }
+
+    public String getName() {
+        return name;
     }
 
     public List<Module> getModules() {
@@ -43,5 +49,9 @@ public class Course {
 
     public void setEndDate(DateTime endDate) {
         this.endDate = endDate;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 }
