@@ -67,11 +67,11 @@ public class Student {
         this.username = username;
     }
 
-    public void setModulesRegistered(ArrayList<Module> modulesRegistered) {
-        this.modulesRegistered = modulesRegistered;
+    public void addModule(Module module) {
+        modulesRegistered.add(module);
     }
 
-    public void setCoursesRegistered(ArrayList<Course> coursesRegistered) {
-        this.coursesRegistered = coursesRegistered;
+    public void addCourse(Course course) {
+        coursesRegistered.add(course);
     }
 }

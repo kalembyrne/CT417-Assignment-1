@@ -28,15 +28,13 @@ public class Module {
         return courses;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
+    public void setName(String name) { this.name = name; }
 
     public void setID(String ID) {
         this.ID = ID;
     }
 
-    public void RegisterStudent(Student student) {
+    public void registerStudent(Student student) {
         registeredStudents.add(student);
     }
 
