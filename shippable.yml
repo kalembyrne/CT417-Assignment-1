@@ -1,5 +1,9 @@
 language: java
 jdk: - oraclejdk11
-script:
-  - javac StudentTest
-  - java StudentTest
+
+build:
+    ci:
+    - mvn install 
+    - javac ./src/test/java/StudentTest
+    - java ./src/test/java/StudentTest
+    
