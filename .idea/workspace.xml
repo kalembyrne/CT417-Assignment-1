@@ -18,7 +18,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
+            <state relative-caret-position="-12">
               <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
             </state>
           </provider>
@@ -260,10 +260,12 @@
     <history-entry file="StudentTest_usernameTest - 2020.11.12 at 16h 54m 19s.xml">
       <configuration name="StudentTest.usernameTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="StudentTest_usernameTest - 2020.11.12 at 18h 13m 17s.xml">
+      <configuration name="StudentTest.usernameTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
@@ -274,8 +276,8 @@
       <window_info id="Structure" order="6" sideWeight="0.5068259" side_tool="true" weight="0.23965652" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="2" />
-      <window_info active="true" anchor="bottom" id="Messages" order="3" visible="true" weight="0.3285968" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="2" visible="true" weight="0.3285968" />
+      <window_info anchor="bottom" id="Messages" order="3" weight="0.3285968" />
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="5" />
       <window_info anchor="bottom" id="Run" order="6" weight="0.3285968" />
@@ -340,7 +342,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
+        <state relative-caret-position="-12">
           <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
         </state>
       </provider>
