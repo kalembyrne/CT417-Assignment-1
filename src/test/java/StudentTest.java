@@ -6,6 +6,6 @@ public class StudentTest {
     @Test
     void usernameTest(){
         Student student = new Student("Name",18,"11/11/99");
-        assertEquals(student.getUsername(),student.getName()+student.getAge());
+        assertEquals(student.getUsername(),(student.getName()+student.getAge()).replaceAll(" ",""));
     }
 }

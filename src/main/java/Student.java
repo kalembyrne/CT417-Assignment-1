@@ -19,7 +19,7 @@ public class Student {
      }
 
      public String getUsername(){
-         username=name+age;
+         username=(name+age).replaceAll(" ","");
          return username;
      }
 
