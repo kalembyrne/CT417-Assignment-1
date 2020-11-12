@@ -3,9 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="4af9d42e-503d-4d0f-aa57-50c70ddd1e11" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Course.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Module.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Module.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Course.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Course.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Module.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Module.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/StudentTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/StudentTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="25" />
+            <state relative-caret-position="-197">
+              <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -32,8 +33,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/StudentTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="136">
+              <caret line="8" column="96" selection-start-line="8" selection-start-column="96" selection-end-line="8" selection-end-column="96" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -41,11 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="66" selection-start-line="10" selection-start-column="66" selection-end-line="10" selection-end-column="66" />
+            <state relative-caret-position="192">
+              <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -90,9 +91,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/StudentTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Course.java" />
         <option value="$PROJECT_DIR$/src/main/java/Module.java" />
+        <option value="$PROJECT_DIR$/src/test/java/StudentTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Student.java" />
       </list>
     </option>
@@ -233,6 +234,14 @@
       <option name="presentableId" value="Default" />
       <updated>1604432209631</updated>
     </task>
+    <task id="LOCAL-00001" summary="Updated username to remove whitespace">
+      <created>1605200130006</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605200130006</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -251,9 +260,15 @@
     <history-entry file="StudentTest_usernameTest - 2020.11.06 at 18h 45m 56s.xml">
       <configuration name="StudentTest.usernameTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="StudentTest_usernameTest - 2020.11.12 at 16h 53m 18s.xml">
+      <configuration name="StudentTest.usernameTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentTest_usernameTest - 2020.11.12 at 16h 54m 19s.xml">
+      <configuration name="StudentTest.usernameTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
@@ -261,15 +276,15 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.49317408" visible="true" weight="0.23965652" />
-      <window_info id="Structure" order="6" sideWeight="0.5068259" side_tool="true" visible="true" weight="0.23965652" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49317408" visible="true" weight="0.24858299" />
+      <window_info id="Structure" order="6" sideWeight="0.5068259" side_tool="true" weight="0.23965652" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Terminal" order="2" />
-      <window_info anchor="bottom" id="Messages" order="3" weight="0.32935154" />
+      <window_info active="true" anchor="bottom" id="Messages" order="3" visible="true" weight="0.3285968" />
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.32935154" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.3285968" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -284,26 +299,13 @@
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
     </layout>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Updated username to remove whitespace" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated username to remove whitespace" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assignment1.iml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/StudentTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Course.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -327,8 +329,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="66" selection-start-line="10" selection-start-column="66" selection-end-line="10" selection-end-column="66" />
+        <state relative-caret-position="192">
+          <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/StudentTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="96" selection-start-line="8" selection-start-column="96" selection-end-line="8" selection-end-column="96" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-197">
+          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
         </state>
       </provider>
     </entry>
