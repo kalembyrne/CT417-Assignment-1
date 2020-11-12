@@ -1,9 +1,7 @@
 language: java
 jdk: - oraclejdk11
 
-build:
-    ci:
-    - mvn install 
-    - javac ./src/test/java/StudentTest
-    - java ./src/test/java/StudentTest
+after_success:
+ - mvn clean cobertura:cobertura
+ - mvn test
     
