@@ -4,8 +4,8 @@ import java.util.List;
 public class Module {
     private String name;
     private String ID;
-    private List<Student> registeredStudents;
-    private List<Course> courses;
+    private List<Student> registeredStudents=new ArrayList<>();
+    private List<Course> courses=new ArrayList<>();
 
     public Module(String name, String ID) {
         this.name = name;
@@ -36,6 +36,7 @@ public class Module {
 
     public void registerStudent(Student student) {
         registeredStudents.add(student);
+        student.addModule(this);
     }
 
     public void addCourse(Course course) {

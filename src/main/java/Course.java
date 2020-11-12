@@ -1,11 +1,12 @@
 import org.joda.time.DateTime;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Course {
     private String name;
-    private List<Module> modules;
-    private List<Student> students;
+    private List<Module> modules =new ArrayList<>();
+    private List<Student> students=new ArrayList<>();
     private DateTime startDate;
     private DateTime endDate;
 
@@ -37,10 +38,12 @@ public class Course {
 
     public void addModule(Module module) {
         modules.add(module);
+        module.addCourse(this);
     }
 
     public void addStudents(Student student) {
         students.add(student);
+        student.addCourse(this);
     }
 
     public void setStartDate(DateTime startDate) {

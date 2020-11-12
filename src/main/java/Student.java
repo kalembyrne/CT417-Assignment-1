@@ -7,8 +7,8 @@ public class Student {
     private String DOB;
     private int ID;
     private String username;
-    private ArrayList<Module>  modulesRegistered;
-    private ArrayList<Course> coursesRegistered;
+    private ArrayList<Module>  modulesRegistered=new ArrayList<>();
+    private ArrayList<Course> coursesRegistered=new ArrayList<>();
 
      Student(String name,int age,String DOB){
          this.name=name;
