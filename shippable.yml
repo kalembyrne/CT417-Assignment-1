@@ -3,6 +3,6 @@ jdk:
  - openjdk11
 
 after_success:
- - mvn clean cobertura:cobertura -X
+ - mvn clean install cobertura:cobertura -X
  - mvn test -X
     
