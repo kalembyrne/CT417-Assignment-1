@@ -32,6 +32,6 @@
         <junit.jupiter.version>5.4.0</junit.jupiter.version>
     </properties>
     <prerequisites>
-        <maven>3.0.0</maven>
+        <maven>4.0.0</maven>
     </prerequisites>
 </project>
