@@ -1,8 +1,8 @@
 language: java
 jdk: 
- - openjdk8
+ - openjdk11
 
 after_success:
- - mvn clean install cobertura:cobertura -X
+ - mvn clean cobertura:cobertura -X
  - mvn test -X
     
