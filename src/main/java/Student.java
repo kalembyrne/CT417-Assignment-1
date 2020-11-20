@@ -68,10 +68,37 @@ public class Student {
     }
 
     public void addModule(Module module) {
-        modulesRegistered.add(module);
+        if(!modulesRegistered.contains(module)){
+            modulesRegistered.add(module);
+        }
+        else{
+            System.out.println("Module already registered for");
+        }
     }
 
     public void addCourse(Course course) {
-        coursesRegistered.add(course);
+        if(!coursesRegistered.contains(course)){
+            coursesRegistered.add(course);
+        }
+        else{
+            System.out.println("course already registered for");
+        }
+    }
+    public void removeModule(Module module) {
+        if(modulesRegistered.contains(module)){
+            modulesRegistered.remove(module);
+        }
+        else{
+            System.out.println("Module not registered for");
+        }
+    }
+
+    public void removeCourse(Course course) {
+        if(coursesRegistered.contains(course)){
+            coursesRegistered.remove(course);
+        }
+        else{
+            System.out.println("course not registered for");
+        }
     }
 }

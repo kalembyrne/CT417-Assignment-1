@@ -36,14 +36,44 @@ public class Course {
         return endDate;
     }
 
+
     public void addModule(Module module) {
-        modules.add(module);
-        module.addCourse(this);
+        if(!modules.contains(module)){
+            modules.add(module);
+            module.addCourse(this);
+        }
+        else{
+            System.out.println("Module already registered for course");
+        }
+    }
+
+    public void removeModule(Module module) {
+        if(modules.contains(module)){
+            modules.remove(module);
+        }
+        else{
+            System.out.println("Module not registered for course");
+        }
     }
 
     public void addStudents(Student student) {
-        students.add(student);
-        student.addCourse(this);
+        if(!students.contains(student)){
+            students.add(student);
+            student.addCourse(this);
+        }
+        else{
+            System.out.println("Student already registered");
+        }
+
+    }
+
+    public void removeStudent(Student student) {
+        if(students.contains(student)){
+            students.remove(student);
+        }
+        else{
+            System.out.println("Student not registered for course");
+        }
     }
 
     public void setStartDate(DateTime startDate) {
