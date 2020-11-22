@@ -1,10 +1,6 @@
 import org.joda.time.DateTime;
-import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.Test;
-
-import java.util.List;
-
-import static org.junit.jupiter.api.Assertions.*;
+import org.junit.Test;
+import static org.junit.Assert.*;
 
 public class ModuleTest {
     private Student student = new Student("Jonny smith",18,"11/11/99");
@@ -15,29 +11,31 @@ public class ModuleTest {
     private  Course course = new Course("ECE4",startDate,endDate);
 
     @Test
-    void addstudentTest(){
+    public void addstudentTest(){
         module.registerStudent(student);
 
         assertTrue(module.getRegisteredStudents().contains(student));
     }
 
     @Test
-    void RemStudentTest(){
+    public void RemStudentTest(){
+        module.registerStudent(student);
         module.removeStudent(student);
 
         assertTrue(!module.getRegisteredStudents().contains(student));
     }
 
     @Test
-    void addCourseTest(){
-        student.addCourse(course);
-        assertTrue(student.getCoursesRegistered().contains(course));
+    public void addCourseTest(){
+        module.addCourse(course);
+        assertTrue(module.getCourses().contains(course));
     }
 
     @Test
-    void remCourseTest(){
-        student.removeCourse(course);
-        assertTrue(!student.getCoursesRegistered().contains(course));
+    public void remCourseTest(){
+        module.addCourse(course);
+        module.removeCourse(course);
+        assertTrue(!module.getCourses().contains(course));
     }
 
 }

@@ -3,6 +3,6 @@ jdk:
  - openjdk8
 
 after_success:
- - mvn clean install cobertura:cobertura -X
- - mvn test -X
+ - mvn install cobertura:cobertura
+ - mvn test
     
